@@ -1,6 +1,6 @@
 {
-    "name": "கணனம்",
-    "short_name": "கணனம்",
+    "name": "ஐந்தொகை",
+    "short_name": "ஐந்தொகை",
     "description": "Professional billing application for silk twisting business",
     "start_url": "/",
     "display": "standalone",

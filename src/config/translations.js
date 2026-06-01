@@ -3,7 +3,7 @@ import { tanglish } from './languages/tg';
 import { english } from './languages/en';
 
 /**
- * Translations for the Elvan Kananam Billing App
+ * Translations for the Elvan Aynthogai Billing App
  * 
  * Supports: 
  * 1. ta_mixed (Tamil + English)

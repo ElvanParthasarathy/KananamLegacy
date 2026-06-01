@@ -36,7 +36,7 @@ function Login({ onLogin, t }) {
                 <div className="login-header">
                     <div className="login-logo">{t.appName ? t.appName[0] : 'க'}</div>
                     <h1 className="login-title" style={{ fontSize: '1.8rem', marginBottom: '4px' }}>{t.appNameFull}</h1>
-                    <p className="login-subtitle" style={{ fontSize: '1rem', color: 'var(--color-text-muted)' }}>Elvan Kananam</p>
+                    <p className="login-subtitle" style={{ fontSize: '1rem', color: 'var(--color-text-muted)' }}>Elvan Aynthogai</p>
                 </div>
 
                 {/* Login Form */}

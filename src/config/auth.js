@@ -8,7 +8,7 @@
 // Credentials (not for production use - for demo only)
 export const AUTH_CREDENTIALS = {
     email: 'srijaipriyasilks@gmail.com',
-    password: 'kananam@sjs'
+    password: 'aynthogai@sjs'
 };
 
 // LocalStorage key for session

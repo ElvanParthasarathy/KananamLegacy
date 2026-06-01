@@ -1,5 +1,5 @@
 /**
- * Default Data for Elvan Kananam
+ * Default Data for Elvan Aynthogai
  * 
  * Pre-defined items and customers for quick selection
  */

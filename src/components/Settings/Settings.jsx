@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
     IconMoon,
     IconSun,
@@ -10,6 +10,7 @@ import {
     IconLogout
 } from '../common/Icons';
 import { showSubtitles } from '../../config/translations';
+import { exportAllData } from '../../utils/dataExport';
 import './Settings.css';
 
 /**
@@ -17,6 +18,16 @@ import './Settings.css';
  */
 function Settings({ language, setLanguage, theme, setTheme, onLogout, t }) {
     const showSubs = showSubtitles(language);
+    const [isExporting, setIsExporting] = useState(false);
+
+    const handleExport = async () => {
+        setIsExporting(true);
+        const result = await exportAllData();
+        if (!result.success) {
+            alert('Export failed: ' + result.error);
+        }
+        setIsExporting(false);
+    };
 
     const Section = ({ title, icon: Icon, children, color }) => (
         <div className="settings-section">
@@ -149,8 +160,16 @@ function Settings({ language, setLanguage, theme, setTheme, onLogout, t }) {
                         </div>
                     }
                     description={t?.exportDesc}
-                    badge={t?.comingSoon}
-                    action={<button className="pref-btn" disabled style={{ opacity: 0.5, width: 'auto', padding: '0 12px' }}>Export</button>}
+                    action={
+                        <button 
+                            className="pref-btn" 
+                            onClick={handleExport}
+                            disabled={isExporting} 
+                            style={{ width: 'auto', padding: '0 12px' }}
+                        >
+                            {isExporting ? 'Exporting...' : 'Export'}
+                        </button>
+                    }
                 />
                 <OptionRow
                     label={
