@@ -1,8 +1,8 @@
 export const tanglish = {
     // App
-    appName: 'Aynthogai',
-    appNameFull: 'Elvan Aynthogai',
-    appNameEnglish: 'Aynthogai',
+    appName: 'Kananam',
+    appNameFull: 'Elvan Kananam',
+    appNameEnglish: 'Kananam',
     createBill: 'Bill Uruvaakka',
     welcomeBack: 'Nalvaravu!',
     login: 'Ullnuzhaige',

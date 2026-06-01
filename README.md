@@ -1,4 +1,4 @@
-# Elvan Aynthogai | எல்வன் ஐந்தொகை
+# Elvan Kananam | எல்வன் கணனம்
 
 A professional, multi-company billing application built with React + Vite.
 

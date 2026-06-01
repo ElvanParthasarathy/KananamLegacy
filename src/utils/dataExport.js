@@ -8,7 +8,7 @@ export const exportAllData = async () => {
         ];
         const exportData = {
             export_date: new Date().toISOString(),
-            app: 'Elvan Aynthogai',
+            app: 'Elvan Kananam',
             data: {}
         };
 
@@ -30,7 +30,7 @@ export const exportAllData = async () => {
         link.href = url;
         
         const dateStr = new Date().toISOString().split('T')[0];
-        link.download = `elvan_aynthogai_full_backup_${dateStr}.json`;
+        link.download = `elvan_kananam_full_backup_${dateStr}.json`;
         
         document.body.appendChild(link);
         link.click();

@@ -1,8 +1,8 @@
 export const english = {
     // App
-    appName: 'Aynthogai',
-    appNameFull: 'Elvan Aynthogai',
-    appNameEnglish: 'Aynthogai',
+    appName: 'Kananam',
+    appNameFull: 'Elvan Kananam',
+    appNameEnglish: 'Kananam',
     createBill: 'Create Bill',
     welcomeBack: 'Welcome back!',
     login: 'Login',

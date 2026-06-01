@@ -78,7 +78,7 @@ function App() {
 
   // Update Document Title based on language
   useEffect(() => {
-    document.title = t.appName || 'Aynthogai';
+    document.title = t.appName || 'Kananam';
   }, [t.appName]);
 
   // Company State
