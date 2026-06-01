@@ -137,7 +137,7 @@ function ElvanInvoice({ data, onEdit, onBack }) {
                     <button onClick={onBack} title="Back" style={{ border: 'none', background: 'none', cursor: 'pointer', color: '#555' }}>
                         <IconArrowLeft size={20} />
                     </button>
-                    <span style={{ fontWeight: 600, color: '#333' }}>Invoice Preview (Elvan Kananam)</span>
+                    <span style={{ fontWeight: 600, color: '#333' }}>Invoice Preview (Elvan Niril)</span>
                 </div>
                 <div style={{ display: 'flex', gap: '10px' }}>
                     <button className="btn btn-secondary" onClick={onEdit} style={{ display: 'flex', alignItems: 'center', gap: '5px', padding: '6px 12px' }}>
@@ -323,7 +323,7 @@ function ElvanInvoice({ data, onEdit, onBack }) {
 
                 {/* Branding Footer */}
                 <div className="elvan-branding-footer">
-                    Crafted with ease using <span style={{ fontWeight: 600, color: '#333' }}>Elvan Kananam</span>
+                    Crafted with ease using <span style={{ fontWeight: 600, color: '#333' }}>Elvan Niril</span>
                 </div>
             </div>
         </div>

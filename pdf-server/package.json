@@ -1,5 +1,5 @@
 {
-    "name": "elvan-kananam-pdf-server",
+    "name": "elvan-niril-pdf-server",
     "version": "1.0.0",
     "description": "Puppeteer PDF Generation Service",
     "main": "index.js",

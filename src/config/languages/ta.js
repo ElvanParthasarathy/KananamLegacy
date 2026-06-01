@@ -1,8 +1,8 @@
 export const tamil = {
     // App
-    appName: 'கணனம்',
-    appNameFull: 'எல்வன் கணனம்',
-    appNameEnglish: 'Kananam',
+    appName: 'நிறிள்',
+    appNameFull: 'எல்வன் நிறிள்',
+    appNameEnglish: 'Niril',
     createBill: 'பில் உருவாக்கு',
     welcomeBack: 'நல்வரவு!',
     login: 'உள்நுழைக',

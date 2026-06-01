@@ -1,4 +1,4 @@
-# Elvan Kananam | எல்வன் கணனம்
+# Elvan Niril | எல்வன் நிறிள்
 
 A professional, multi-company billing application built with React + Vite.
 
